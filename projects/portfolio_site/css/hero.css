@@ -1,0 +1,21 @@
+.hero {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(to bottom, lightgreen, lightblue);
+}
+
+.hero button {
+    height: 60px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.hero button:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+    box-shadow: 2px 2px 10px black;
+}
