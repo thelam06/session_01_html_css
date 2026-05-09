@@ -7,11 +7,26 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 80px;
+}
+
+nav a {
+    margin: 20px;
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
 }
 
 nav a:hover {
     text-decoration: underline;
     background: red;
+}
+
+header .logo {
+    color: var(--color-primary);
+    font-size: 30px;
+    font-weight: bold;
+    margin: 20px;
 }
 
 .menu-toggle { display: none; }

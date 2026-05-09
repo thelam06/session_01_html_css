@@ -5,17 +5,40 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    background: linear-gradient(to bottom, lightgreen, lightblue);
+    background: linear-gradient(to right, var(--color-primary), var(--color-secondary));
+    color: white;
 }
 
 .hero button {
-    height: 60px;
+    height: 70px;
     width: 200px;
-    border-radius: 50%;
+    border-radius: 40%;
 }
 
 .hero button:hover {
     transform: scale(1.1);
     transition: 0.3s;
     box-shadow: 2px 2px 10px black;
+}
+
+.hero h1 {
+    font-size: 3.5 rem;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2.5 rem;
+    }
+}
+
+.hero p {
+    font-size: 1.25 rem;
+}
+
+.hero button a {
+    font-size: 1 rem;
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--color-primary);
 }
