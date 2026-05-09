@@ -3,8 +3,7 @@
     grid-template-columns: 1fr 1.5fr;
     gap: 3rem;
     align-items: center;
-    font-size: 1.25 rem;
-    font-weight: 300;
+    margin: 50px 0 50px 50px;
 }
 
 .about-image img {
@@ -13,43 +12,10 @@
     border-radius: 50%;
 }
 
-.skills-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 1.5rem;
+.about-content .lead {
+    font-size: 1.25 rem;
+    font-weight: 300;
 }
-
-.skill-item {
-    border: 1px solid var(--color-dark);
-    height: 80px;
-    margin: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.skill-name {
-    margin: 0 20px 20px 20px;
-}
-
-.skill-bar {
-    background: #e2e8f0;
-    border-radius: 10px;
-    overflow: hidden;
-    height: 12px;
-    transition: 1s ease-out;
-    margin: 0 20px 0 20px;
-}
-
-.skill-progress {
-    background: linear-gradient(90deg, var(--color-primary), var(--color-secondary));
-    height: 100%;
-    width: 0; /* Start at 0 for animation */
-    transition: width 1s ease-out;
-}
-
-/* Add class 'animate' via JS when in viewport */
-.skill-progress.animate { width: 95%; }
 
 @media (max-width: 768px) {
     .about-grid { grid-template-columns: 1fr; }
