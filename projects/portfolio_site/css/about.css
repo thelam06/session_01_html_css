@@ -12,6 +12,10 @@
     border-radius: 50%;
 }
 
+.about-content h2 {
+    font-size: 40px;
+}
+
 .about-content .lead {
     font-size: 1.25 rem;
     font-weight: 300;

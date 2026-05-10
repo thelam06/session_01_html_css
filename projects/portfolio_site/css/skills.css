@@ -1,3 +1,7 @@
+.skills-section .container {
+    background: var(--color-light);
+}
+
 .skills-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
